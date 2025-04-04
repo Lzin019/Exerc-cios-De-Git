@@ -1,8 +1,8 @@
 let idade = 28;
 switch (true) {
-    case idade >= 16 && idade <= 70:
-        console.log("Você pode votar");
+    case idade >= 60:
+        console.log("Você foi aprovado");
         break;
     default:
-        console.log("Você não pode votar");
+        console.log("Você foi reprovado");
 }
