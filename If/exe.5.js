@@ -1,8 +1,8 @@
-let nota= 8;
+let idade = 28;
 switch (true) {
-    case nota >= 9 && nota <= 10:
-        console.log("Excelente 🌟");
+    case idade >= 60:
+        console.log("Você foi aprovado");
         break;
-        default:
-        console.log("Bom 👍");
+    default:
+        console.log("Você foi reprovado");
 }
